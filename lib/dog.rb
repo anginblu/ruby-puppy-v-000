@@ -9,7 +9,7 @@ class Dog
   end
 
   def all
-    puts @@all
+    puts @@all.values
   end
 
 end
