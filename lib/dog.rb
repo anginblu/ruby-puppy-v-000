@@ -8,8 +8,10 @@ class Dog
     @@all << self
   end
 
-  def all
-    puts @@all.values
+  def self.all
+    @@all.each do |name|
+      puts name
+    end
   end
 
   def clear_all
